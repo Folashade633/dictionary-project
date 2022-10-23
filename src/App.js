@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import Dictionary from "./Dictionary.js";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <img src={logo} className="React-logo" alt="logo" />
+          <span>
+            <a
+              href="https://github.com/Folashade633/dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-link"
+            >
+              {" "}
+              Open-source code{" "}
+            </a>{" "}
+            by {""}
+            <a
+              href="https://www.linkedin.com/in/folashade-joachim-9822a089/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="linkedin-link"
+            >
+              Folashade Joachim{" "}
+            </a>
+          </span>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
