@@ -11,3 +11,14 @@ h4 {
   font-weight: 300;
   text-align: center;
 }
+.Dictionary .search-input {
+  display: block;
+  height: 64px;
+  color: #666;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 22px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+}
