@@ -22,3 +22,25 @@ h4 {
   border-radius: 6px;
   width: 100%;
 }
+
+.Dictionary .form-control {
+  border: 1px solid rgb(144, 144, 144);
+  border-radius: 0;
+  box-shadow: 3px 7px 10px rgba(138, 138, 138, 0.479);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-top: 20px;
+  padding-left: 55px;
+}
+
+.Dictionary .form-control-search {
+  color: #414141;
+  display: block;
+  height: 4.375rem;
+  line-height: 50px;
+  padding-left: 20px;
+  position: absolute;
+  text-align: center;
+  width: 2.375rem;
+}

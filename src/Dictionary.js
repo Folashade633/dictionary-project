@@ -28,13 +28,15 @@ export default function Dictionary() {
       <h1 className="Dictionary-header">DICTIONARY</h1>
       <h4>What word would you like to look up?</h4>
       <form onSubmit={search}>
-        <input
-          type="search"
-          onChange={handleKeywordChange}
-          className="form-control"
-          placeholder="Search for a word here"
-          defaultValue="Sunset"
-        />
+        <div>
+          <span className="fa fa-search form-control-search"></span>
+          <input
+            type="Search"
+            onChange={handleKeywordChange}
+            className="form-control"
+            placeholder="Search for a word here"
+          />
+        </div>
       </form>
 
       <Results results={results} />

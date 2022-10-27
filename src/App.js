@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import icon from "./icon.png";
 import Dictionary from "./Dictionary.js";
 import "./App.css";
 
@@ -6,6 +7,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <header className="App-header">
+          <img src={icon} className="icon" alt="Dictionary icon" />
+        </header>
         <main>
           <Dictionary />
         </main>
