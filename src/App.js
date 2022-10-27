@@ -25,14 +25,13 @@ export default function App() {
               {" "}
               Open-source code{" "}
             </a>{" "}
-            by {""}
             <a
               href="https://www.linkedin.com/in/folashade-joachim-9822a089/"
               target="_blank"
               rel="noopener noreferrer"
               className="linkedin-link"
             >
-              Folashade Joachim{" "}
+              by Folashade Joachim{" "}
             </a>
           </span>
         </footer>

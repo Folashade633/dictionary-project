@@ -1,15 +1,29 @@
-h1 {
-  font-size: 50px;
-  font-weight: 600;
-  letter-spacing: 0px;
-  margin: 10px 0 20px;
+.Dictionary section {
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 3px 10px 20px 4px;
+  margin: 20px 0;
+}
+
+.Dictionary h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.Dictionary h4 {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
   text-align: center;
 }
 
-h4 {
-  font-size: 16px;
-  font-weight: 300;
-  text-align: center;
+.Dictionary .hint {
+  font-size: 15px;
+  margin-top: 10px;
+  color: white;
 }
 
 .Dictionary .search-input {
@@ -38,10 +52,8 @@ h4 {
 .Dictionary .form-control-search {
   color: #414141;
   display: block;
-  height: 4.375rem;
   line-height: 50px;
   padding-left: 20px;
   position: absolute;
   text-align: center;
-  width: 2.375rem;
 }

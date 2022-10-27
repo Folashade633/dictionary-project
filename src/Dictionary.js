@@ -25,19 +25,22 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <h1 className="Dictionary-header">DICTIONARY</h1>
       <h4>What word would you like to look up?</h4>
-      <form onSubmit={search}>
-        <div>
-          <span className="fa fa-search form-control-search"></span>
-          <input
-            type="Search"
-            onChange={handleKeywordChange}
-            className="form-control"
-            placeholder="Search for a word here"
-          />
-        </div>
-      </form>
+      <section>
+        <form onSubmit={search}>
+          <div>
+            <span className="fa fa-search form-control-search"></span>
+            <input
+              type="Search"
+              onChange={handleKeywordChange}
+              className="form-control"
+              placeholder="Search for a word here"
+              autoFocus={true}
+            />
+          </div>
+        </form>
+        <div className="hint"> suggested words: victory, bold, courage</div>
+      </section>
 
       <Results results={results} />
     </div>
