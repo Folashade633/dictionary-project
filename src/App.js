@@ -8,10 +8,10 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={icon} className="icon" alt="Dictionary icon" />
+          <img src={icon} className="icon" alt="Dictionary-icon" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="peace" />
         </main>
         <footer className="App-footer">
           <img src={logo} className="React-logo" alt="logo" />
