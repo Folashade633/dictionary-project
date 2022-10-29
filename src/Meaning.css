@@ -7,7 +7,14 @@
 }
 
 .Meaning .example {
-  color: #ffffff;
   font-style: italic;
   margin-top: 10px;
+  font-size: 13px;
+  opacity: 0.6;
+}
+.Meaning .definition {
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 16px;
+  opacity: 1;
 }
