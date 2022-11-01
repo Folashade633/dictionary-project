@@ -3,12 +3,8 @@
   background-color: #093577;
   max-width: 960px;
   padding: 60px 0px 100px;
-  margin: 0 auto;
+  margin: 30px auto;
   color: whitesmoke;
-}
-
-.App-header {
-  margin: 30px 0;
 }
 
 .App .icon {
